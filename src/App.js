@@ -1,21 +1,21 @@
 /* eslint react/no-did-mount-set-state: 0 */
 
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import { applyMiddleware, createStore } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
-import { save, load } from 'redux-localstorage-simple';
-import logger from 'redux-logger';
-import thunk from 'redux-thunk';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { Provider } from "react-redux";
+import { applyMiddleware, createStore } from "redux";
+import { composeWithDevTools } from "redux-devtools-extension";
+import { save, load } from "redux-localstorage-simple";
+import logger from "redux-logger";
+import thunk from "redux-thunk";
 
-import rootReducer from './rootReducer';
-import './App.css';
-import Footer from './Footer';
+import rootReducer from "./rootReducer";
+import "./App.css";
+import Footer from "./Footer";
 
-import MoviesList from './movies/MoviesList';
-import MovieDetail from './movies/MovieDetail';
-import Toggle from './toggle/Toggle';
+import MoviesList from "./movies/MoviesList";
+import MovieDetail from "./movies/MovieDetail";
+import Toggle from "./toggle/Toggle";
 
 const middleware = [logger, thunk];
 
@@ -23,7 +23,7 @@ const middleware = [logger, thunk];
 const store = createStore(
   rootReducer,
   load(),
-  composeWithDevTools(applyMiddleware(...middleware, save())),
+  composeWithDevTools(applyMiddleware(...middleware, save()))
 );
 
 const App = () => (
