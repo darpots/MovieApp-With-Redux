@@ -19,7 +19,7 @@ class MoviesList extends PureComponent {
   }
 
   render() {
-    const { movies, isLoaded } = this.props;
+    const { movies } = this.props;
     return (
       <MovieGrid>
         {movies.map(movie => <Movie key={movie.id} movie={movie} />)}
