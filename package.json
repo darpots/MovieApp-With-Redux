@@ -25,7 +25,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "eslint": "^7.4.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
@@ -33,14 +32,3 @@
     "eslint-plugin-react": "^7.20.3"
   }
 }
-=======
-    "eslint": "^4.18.2",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
-  },
-  "keywords": [],
-  "description": "Small app using a movie API and React"
-}
->>>>>>> 7751c31f14e78537b0ea7dffbdf22288fe88917f
