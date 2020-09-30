@@ -36,7 +36,7 @@ const App = () => (
             <img src="./logo.png" className="App-logo" alt="logo" />
           </Link>
         </header>
-        <Toggle />
+
         <Switch>
           <Route exact path="/" component={MoviesList} />
           <Route path="/:id" component={MovieDetail} />
