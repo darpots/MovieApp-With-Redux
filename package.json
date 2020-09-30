@@ -2,7 +2,6 @@
   "name": "movie-app",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "/work/movieapp/",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
