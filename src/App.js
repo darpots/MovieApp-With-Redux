@@ -15,7 +15,6 @@ import Footer from "./Footer";
 
 import MoviesList from "./movies/MoviesList";
 import MovieDetail from "./movies/MovieDetail";
-import Toggle from "./toggle/Toggle";
 
 const middleware = [logger, thunk];
 
